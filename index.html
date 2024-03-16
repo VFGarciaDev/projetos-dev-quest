@@ -1,17 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos - Dev. Quest</title>
 
-    <!-- <link rel="stylesheet" href="alt.css"> -->
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #C4C4C4;
+            height: 100vh;
+            display: flex;
+        }
+
+        .container {
+            background-color: white;
+            margin: 30px auto;
+            min-width: 50%;
+            border-radius: 20px;
+            display: grid;
+            grid-template-rows: 80px repeat(2, 1fr);
+        }
+
+        h1,
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            padding: 20px 15px;
+        }
+
+        dl {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        dt {
+            font-size: 20px;
+        }
+
+        dd {
+            margin-left: 20px;
+            margin-top: 5px;
+            font-size: 17px;
+        }
+
+        dd:before {
+            content: "\2022";
+            display: inline-block;
+            width: 10px;
+            text-align: center;
+            margin-left: -20px;
+        }
+    </style>
 </head>
+
 <body>
-    <!-- <div>
-        <img class="dev-logo" src="https://mozart-files.ticto.io/352871/7dd2be96-7259-4d06-a596-e9cdd85d8a50" alt="Logo Dev. Quest">
-    </div> -->
     <main class="container">
         <h1>Desafios - Dev. Quest </h1>
 
@@ -22,7 +75,7 @@
                 <dt>
                     <a href="./html-css-avancado/youtube-layout/index.html" target="_blank">Layout - Youtube</a>
                 </dt>
-                    <dd>Uso de Grid e Flexbox para criação do Layout</dd>
+                <dd>Uso de Grid e Flexbox para criação do Layout</dd>
             </dl>
         </section>
 
@@ -33,7 +86,7 @@
                 <dt>
                     <a href="" target="_blank">N/A</a>
                 </dt>
-                    <dd>N/A</dd>
+                <dd>N/A</dd>
             </dl>
         </section>
     </main>
