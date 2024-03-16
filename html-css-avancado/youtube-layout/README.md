@@ -27,7 +27,7 @@ O desafio era criar um Layout de vídeos igual ao youtube, fazendo principal uso
 
 ### Link
 
-- <a href="./index.html">Link para solução do desafio</a>
+- <a href="https://vfgarciadev.github.io/projetos-dev-quest/html-css-avancado/youtube-layout/index.html">Link para solução do desafio</a>
 
 
 ## Meu processo
